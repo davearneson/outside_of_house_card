@@ -1,0 +1,81 @@
+cards:
+  - elements:
+      - entity: sun.sun
+        state_image:
+          above_horizon: 'https://i.imgur.com/8UXJh2T.png'
+          below_horizon: 'https://i.imgur.com/egMh3Wk.png'
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        tap_action:
+          action: none
+        type: image
+      - entity: light.alley_lights
+        state_image:
+          'off': 'https://i.imgur.com/pdHIrPe.png'
+          'on': 'https://i.imgur.com/IhEPKpp.png'
+          unavailable: 'https://i.imgur.com/L826J8V.png'
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        tap_action:
+          action: toggle
+        type: image
+      - entity: light.front_porch_light
+        hold_action:
+          action: more-info
+        state_image:
+          'off': 'https://i.imgur.com/srDfhbl.png'
+          'on': 'https://i.imgur.com/0jfyCFO.png'
+        style:
+          left: 35.54%
+          top: 50.275%
+          width: 42.37%
+        tap_action:
+          action: toggle
+        type: image
+    image: 'https://i.imgur.com/8UXJh2T.png'
+    type: picture-elements
+  - elements:
+      - entity: sun.sun
+        state_image:
+          above_horizon: 'https://i.imgur.com/k2IY4B8.png'
+          below_horizon: 'https://i.imgur.com/Wm4IgjA.png'
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        tap_action:
+          action: none
+        type: image
+      - entity: light.alley_lights
+        state_image:
+          'off': 'https://i.imgur.com/FkOZBuc.png'
+          'on': 'https://i.imgur.com/TL8wjGW.png'
+          unavailable: 'https://i.imgur.com/L826J8V.png'
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+        tap_action:
+          action: toggle
+        type: image
+      - entity: light.back_porch_2
+        hold_action:
+          action: more-info
+        state_image:
+          'off': 'https://i.imgur.com/yJfrl0m.png'
+          'on': 'https://i.imgur.com/TvWBhCd.png'
+          unavailable: 'https://i.imgur.com/CDSUQiw.png'
+        style:
+          left: 43.9%
+          top: 50%
+          width: 56.7%
+        tap_action:
+          action: toggle
+        type: image
+    image: 'https://i.imgur.com/k2IY4B8.png'
+    type: picture-elements
+type: vertical-stack
